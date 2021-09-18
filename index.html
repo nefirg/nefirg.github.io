@@ -1,34 +1,33 @@
 <!Doctype html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nefi's Home Page</title>
     <link href="css/main.css" rel="stylesheet">
+    <script href=java.js></script>
 </head>
 
 <body>
-
-    <header id="page1-header">
+    <header>
         <h1>Nefi Guevara</h1>
     </header>
-    //div#wrapper
+    <!-- //div#wrapper
     //<div id="wrapper">
         // Nav
         // main
         // footer, etc
-        // ul>li*7
+        // ul>li*7 -->
     </div>
     <main>
-        <div>
-            <img src="C:\Users\Nefi Guevara\Documents\WDD 230\nefirg.github.io\NKGuevara.jpg.jpg" alt="Family Picture">
+        <div id="imgbody">
+            <img src="NKGuevara 21kb pic.jpg" alt="Family Picture" class="center">
         </div>
         <div>
-            <p>
+            <p id="title2">
                 WDD 230: Assignment Portal
             </p>
-            <hr>
             <ul>
                 <li>Lesson 02 | <a href="designprinciples.com">Design Principles</a></li>
                 <li>Lesson 03 | <a href="weathersite.com">Weather Site Plan</a></li>
@@ -39,10 +38,15 @@
         </div>
     </main>
     <footer>
-        <em>&copy; | Nefi Guevara | <a
-                href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>| BYU-Idaho
-            Last Updated:
-        </em>
+        &copy; | Nefi Guevara | <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+        | BYU-Idaho Last Updated: <span id="currentdate"></span>
+        <script>
+            let d = new Date();
+            let fulldate = d.getMonth() + '/' + d.getDay() + '/' + d.getFullYear() + ' ';
+            let fulltime = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
+            let both = fulldate + ' ' + fulltime;
+            document.getElementById("currentdate").innerHTML = both;
+        </script>
     </footer>
 </body>
 
