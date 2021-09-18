@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nefi's Home Page</title>
     <link href="css/main.css" rel="stylesheet">
-    <script href=java.js></script>
+    <script src="java.js"></script>
 </head>
 
 <body>
@@ -18,11 +18,11 @@
         // Nav
         // main
         // footer, etc
-        // ul>li*7 -->
-    </div>
+        // ul>li*7
+        // </div> -->
     <main>
         <div id="imgbody">
-            <img src="NKGuevara 21kb pic.jpg" alt="Family Picture" class="center">
+            <img src="NKGuevara_21kb_pic.jpg" alt="Family Picture" class="center">
         </div>
         <div>
             <p id="title2">
@@ -40,13 +40,6 @@
     <footer>
         &copy; | Nefi Guevara | <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
         | BYU-Idaho Last Updated: <span id="currentdate"></span>
-        <script>
-            let d = new Date();
-            let fulldate = d.getMonth() + '/' + d.getDay() + '/' + d.getFullYear() + ' ';
-            let fulltime = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
-            let both = fulldate + ' ' + fulltime;
-            document.getElementById("currentdate").innerHTML = both;
-        </script>
     </footer>
 </body>
 
