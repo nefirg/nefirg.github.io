@@ -2,7 +2,7 @@
 # = id
 */
 body{
-    background-color:rgb(0, 132, 255);
+    background-color:rgba(83, 84, 100, 0.76);
     object-position: right;
     text-align:center;
     width:auto;
@@ -11,10 +11,10 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
-    color:whitesmoke;
+    color:white;
 }
 p#title2{
-    color:whitesmoke;
+    color:white;
     text-align:center;
     font-size:20px;
     padding:5px;
