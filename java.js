@@ -21,9 +21,12 @@ let months = [
     "October", 
     "November", 
     "December"];*/
-let d = new Date();
+    
+window.addEventListener('load', () => {
+    let d = new Date();
 
-let fulldate = d.getMonth() + '/' + d.getDay() + '/' + d.getFullYear() + ' ';
-let fulltime = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
-let both = fulldate + ' ' + fulltime;
+    let fulldate = d.getMonth() + '/' + d.getDay() + '/' + d.getFullYear() + ' ';
+    let fulltime = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
+    let both = fulldate + ' ' + fulltime;
     document.getElementById("currentdate").innerHTML = both;
+})
