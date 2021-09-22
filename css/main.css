@@ -1,6 +1,39 @@
 /* . = class
 # = id
-*/
+1. Imports
+2a. General 
+2b. Mobile 
+3. Midsize
+4. Large
+5. Really Large */
+
+/* 1. Imports
+
+2a. General
+body {
+    background-color: blue;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+#page-header, #page-footer {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+2b. Mobile 
+
+3. Midsize
+
+4. Large
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+5. Really Large */
+
+
 body{
     background-color:rgba(83, 84, 100, 0.76);
     object-position: right;
