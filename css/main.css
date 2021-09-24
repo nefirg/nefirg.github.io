@@ -45,12 +45,15 @@ h1{
     justify-content: space-evenly;
     align-content: space-around;
     color:white;
+    /* fonts.google.com look for html link code then css code */
+    font-family: 'Bonheur Royale', cursive;
 }
 p#title2{
     color:white;
     text-align:center;
     font-size:20px;
     padding:5px;
+    font-family: 'Bonheur Royale', cursive;
 }
 .center {
     display: block;
