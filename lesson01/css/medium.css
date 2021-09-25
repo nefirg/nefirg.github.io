@@ -1,0 +1,40 @@
+@media (min-width: 32.5em) {
+    h1 {
+        color:rgb(143, 160, 148);
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        width: 30%;
+    }
+    p#title2 {
+        color:rgb(143, 160, 148);
+    }
+}
+@media (min-width: 64em) {
+    h1 {
+        color:rgb(235, 138, 100);
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        width: 35%;
+    }
+    p#title2 {
+        color:rgb(235, 138, 100);
+    }
+    .column {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      * {
+        box-sizing: border-box;
+      }
+}
