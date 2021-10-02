@@ -32,22 +32,27 @@ body {
     margin: 0 auto;
 }
 5. Really Large */
-
-img#1 {
+@font-face {
+    font-family : 'Lora';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuxJOkq1umA.woff2) format('woff2');
+    }
+#one {
     border-radius: 5em;
-    margin-left:3em;
-    padding: 2em;
+    margin: auto;
     margin-bottom: -2em;
+    padding: 2em;
 }
-img#2 {
+#two {
     border-radius: 5em;
-    margin-bottom: -2.5em;
 }
-img#3 {
+#three {
     width: 250px;
     height: 300px;
 }
-img#4 {
+#four {
     width: 250px;
     height: 300px;
 }
@@ -71,6 +76,18 @@ li a {
 nav {
     width: 100%;
 }
-h1, h2, nav, li, p {
+h1{
+    font-family: 'Lora', serif;
+}
+h2{
+    font-family: 'Lora', serif;
+}
+nav{
+    font-family: 'Lora', serif;
+} 
+li{
+    font-family: 'Lora', serif;
+} 
+p {
     font-family: 'Lora', serif;
 }
