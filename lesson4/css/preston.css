@@ -26,7 +26,62 @@
     border: 1px solidgreen;
     padding: .5em;
     box shadow: 0 0 30px #777;
-} */
+} 
+
+#one {
+    background-color: aqua;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+#two {
+    background-color:darggoldenrod;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+
+div_sticky {
+    position: sticky;
+    top: 10px;
+    padding: 5px;
+    background-color: #whatever;
+    border: 2px solid #color; }
+
+    #navList a:link {
+    
+    #navList a:visited {
+        color: #fff;
+
+    #navList a:hover {
+    
+
+    #navList a:focus {
+        background-color: white;
+        color: green;
+    }
+
+    body id of preston
+    body id of storm
+    <body id=storm> example
+    
+    #Preston #navList a[title==Preston],
+    #Soda #navList a[title==Soda],
+    #navList a[title==Fish],
+    #navList a[title==Gallery],
+    #navList a[title==Storm] {
+        background-color: white;
+        color: blue;
+
+
+    .mobileNav li {
+        display: block; 
+    }
+
+
+*/
+
 
 @font-face {
     font-family : 'Lora';
