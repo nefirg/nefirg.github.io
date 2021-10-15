@@ -1,19 +1,34 @@
 document.getElementById("lastmodified").innerHTML = document.lastModified;
 
-function addItem() {
-    var currentChap = document.getElementByClass("list");
-    var listItem = document.getElementById("favchap");
-    listItem.innerHTML = currentChap;
-    var li = document.createElement("li");
-    li.setAttribute('id', favchap.value);
-    li.appendChild(document.createTextNode(listItem.value));
-    currentChap.appendChild(li);
-}
-                                                                                            
-function removeItem() {
-var currentChap = document.getElementByClass("list");
-var listItem = document.getElementById("favchap");
-var item = document.getElementById(item.value);
-currentChap.removeChild(item);
-}
+const input = document.querySelector('input');
+
+
+const button = document.querySelector('button');
+
+
+const list = document.querySelector('ul');
+
+
+button.addEventListener('click', function() {
+	let mychap = input.value;
+	input.value = '';
+	
+	const listItem = document.createElement('li');
+        
+	const listText = document.createElement('span');
+        
+	const listBtn = document.createElement('button');
+
+ listItem.appendChild(listText);
+ listText.textContent = mychap;
+ listItem.appendChild(listBtn);
+ listBtn.textContent = 'Delete';
+ list.appendChild(listItem);
+
+ listBtn.onclick = function(e) {
+   list.removeChild(listItem);
+ }
+
+ input.focus(); 
+})
 
