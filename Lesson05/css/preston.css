@@ -258,6 +258,15 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media handheld, only screen and (max-width: 767px) {
+#showHide {
+    display: none !important;
+    width: 0;
+    height: 0;
+}
+
+}
 /* This is my mid screen change and 32.5em is 520px. */
 @media (min-width: 32.5em) {
     nav button {
@@ -325,6 +334,7 @@ p {
         border: 2px solid #333;
         text-align: left;
         font-size:1.3em;
+        display:block;
     }
     
     h2 {
@@ -430,6 +440,7 @@ p {
         border: 3px solid #333;
         text-align: left;
         font-size: 1.5em;
+        display:block;
     }
     
     h2 {
@@ -496,6 +507,7 @@ p {
         position: absolute;
         margin-right: 6em;
         margin-left: 30em;
+        margin-top: -6em;
     }
 }
 
