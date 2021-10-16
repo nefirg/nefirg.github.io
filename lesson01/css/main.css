@@ -72,3 +72,6 @@ color:#FFFFFF;
 text-align:center;
 }
 
+nav .current {
+    color:white;
+}
