@@ -1,0 +1,512 @@
+/* h2 {
+    text-align:center;
+/* } */
+
+iframe {
+    width:100%;
+}
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    border: 1px dashed cyan;
+    width: 960px;
+    height: 300px;
+}
+
+.hero-ph {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    width: 100%;
+    height: 250px;
+}
+
+h4 {
+    margin:0;
+}
+
+div#weather-summary {
+    position: relative;
+    color: rgb(7, 247, 255);
+    padding: .5em;
+    top: -1.5em;
+} 
+
+#img1 {
+    width: 100%;
+    Height: 15em;
+    margin-bottom: -8em;
+}
+/* #one {
+    background-color: aqua;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+#two {
+    background-color:darggoldenrod;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+
+div_sticky {
+    position: sticky;
+    top: 10px;
+    padding: 5px;
+    background-color: #whatever;
+    border: 2px solid #color; }
+
+    #navList a:link {
+    
+    #navList a:visited {
+        color: #fff;
+
+    #navList a:hover {
+    
+
+    #navList a:focus {
+        background-color: white;
+        color: green;
+    }
+
+    body id of preston
+    body id of storm
+    <body id=storm> example
+    
+    #Preston #navList a[title==Preston],
+    #Soda #navList a[title==Soda],
+    #navList a[title==Fish],
+    #navList a[title==Gallery],
+    #navList a[title==Storm] {
+        background-color: white;
+        color: blue;
+
+
+    .mobileNav li {
+        display: block; 
+    }
+
+
+*/
+
+@font-face {
+    font-family : 'Lora';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuxJOkq1umA.woff2) format('woff2');
+    }
+    
+body{
+    background-color:rgba(143, 214, 204, 0.76);
+    margin:0;
+}
+
+html, body {
+    margin: 0;
+}
+
+.banner {
+    background: #f7a65b;
+}
+
+.banner-content {
+    padding:16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+}
+
+.banner-text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+    text-align: center;
+}
+
+/* .banner--close {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner--text, .banner--close > span {
+    color: white;
+} */
+
+header{
+    display:flex;
+}
+
+header img{
+    height: 125px;
+}
+
+#one {
+    border-radius: 2em;
+    margin:20px;
+}
+
+nav button {
+    color:rgba(143, 214, 204, 0.76);
+    background-color:#333;
+    border:none;
+    font-size:1em;
+    padding:.4em;
+    border-radius:.2em;
+}
+
+nav {
+    font-family:Verdana, sans-serif;
+    background-color:#333;
+    padding: 0 2.4em;
+}
+
+nav ul {
+    background-color:#333;
+    color:rgba(143, 214, 204, 0.76);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:rgba(143, 214, 204, 0.76);
+    border-top:1px solid rgba(0,0,0,.3);
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,.2); 
+    color: #fff;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+ul#primaryNav.hide {
+    list-style: none;
+}
+
+ul#primaryNav {
+    list-style: none;
+}
+
+main {
+    padding:1.5em;
+    background-color:rgb(230, 238, 238);
+    text-align:center;
+}
+
+.contentbox {
+    margin: 5px;
+    padding: .6em;
+    background-color: rgba(143, 214, 204, 0.5);
+    border-radius: .3em;
+    border: 2px solid #333;
+    text-align: left;
+}
+
+h2 {
+    margin-top:2px;
+    display: block;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size:1.8em;
+}
+
+footer {
+    margin:2.5em;
+    text-align: center;
+    font-size:16px;
+}
+
+.hide .current {
+    color:white;
+}
+
+#ugh{
+    text-align:center;
+}
+
+#ih8this {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+#showHide {
+    display: none !important;
+    width: 0;
+    height: 0;
+}
+
+}
+/* This is my mid screen change and 32.5em is 520px. */
+@media (min-width: 32.5em) {
+    nav button {
+        color:rgba(143, 214, 204, 0.76);
+        background-color:#333;
+        border:none;
+        font-size:1.5em;
+        padding:.4em;
+        border-radius:3em;
+    }
+    
+    nav {
+        font-family:Verdana, sans-serif;
+        background-color:#333;
+    }
+    
+    nav ul {
+        background-color:#333;
+        color:rgba(143, 214, 204, 0.76);
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        color:rgba(143, 214, 204, 0.76);
+        border-top:1px solid rgba(0,0,0,.3);
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,.4);
+        color:white;
+    }
+    
+    nav ul li.active a{
+        background-color: rgba(0,0,0,.2); 
+        color: #fff;
+    }
+    
+    nav ul.hide {
+        display: block;
+    }
+    
+    ul#primaryNav {
+        list-style: none;
+    }
+
+    ul#primaryNav.hide {
+        display:none;
+    }
+    
+    main {
+        padding:2em;
+        background-color:rgb(230, 238, 238);
+        text-align:center;
+    }
+    
+    .contentbox {
+        margin: 12px;
+        padding: .7em;
+        background-color: rgba(143, 214, 204, 0.5);
+        border-radius: .3em;
+        border: 2px solid #333;
+        text-align: left;
+        font-size:1.3em;
+        display:block;
+    }
+    
+    h2 {
+        margin-top:2px;
+        display: block;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 1em;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    p {
+        font-size: 1.6em;
+    }
+    
+    footer {
+        margin:2.5em;
+        text-align: center;
+        font-size:1em;
+    }
+
+    div#weathersummary {
+        position: absolute;
+        color: yellow;
+        padding: .5em;
+        top: -10em;
+        width: 30%;
+    } 
+    #ih8this {
+        width: 100%;
+    }
+    p#bs {
+        font-size: 22px;
+    }
+    iframe{
+        width:50%;
+    }
+    div#icons {
+        float: right;
+        padding-top: 4em;
+        margin-right: 3em;
+        font-size: larger;
+    }
+    
+}
+/* This is my large screen change and 64em is 1024px. */
+@media (min-width: 64em) { 
+    /* header img{
+        height: 200px;
+    } */
+    h2#ugh {
+        text-align: center;
+        height: 30px;
+    }
+    button {
+        display:none;
+    }
+
+    nav ul.hide{
+        display:flex;
+        font-family:Verdana, sans-serif;
+        background-color:#333;
+        text-align:center;
+        font-size:1.2em;
+    }
+    
+    ul#primaryNav.hide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    ul#primaryNav {
+        list-style: none;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,.4);
+        color:white;
+    }
+    
+    nav ul li.active a{
+        background-color: rgba(0,0,0,.2); 
+        color: #fff;
+    }
+    
+    main {
+        padding:1.5em;
+        background-color:rgb(230, 238, 238);
+        text-align:center;
+    }
+    
+    .contentbox {
+        margin: 10px;
+        padding: 1em;
+        background-color: rgba(143, 214, 204, 0.5);
+        border-radius: .4em;
+        border: 3px solid #333;
+        text-align: left;
+        font-size: 1.5em;
+        display:block;
+    }
+    
+    h2 {
+        margin-top:2px;
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 3em;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    p {
+        font-size:1.5em;
+    }
+
+    p#swag{
+        position: absolute;
+        padding-top: 1.5em;
+        margin-left: 24em;
+    }
+    
+    #ih8this {
+        width: 100%;
+        height: 10em;
+        padding-top: 1em;
+    }
+
+    footer {
+        margin:2.5em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #img1 {
+        width: 100%;
+        Height: 20em;
+    }
+
+    div#weathersummary {
+        position: relative;
+        color: yellow;
+        padding: .5em;
+        top: -10em;
+        width: 30%;
+    } 
+    .bs {
+        font-size: 22px;
+    }
+    iframe {
+        width:50%;
+    }
+    h3#huh {
+        position: absolute;
+        margin-left: 18em;
+        margin-top: 20px;
+    }
+    div#icons {
+        position: absolute;
+        margin-right: 6em;
+        margin-left: 30em;
+        margin-top: -6em;
+    }
+}
