@@ -259,7 +259,7 @@ p {
     justify-content: space-evenly;
 }
 
-@media handheld, only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 #showHide {
     display: none !important;
     width: 0;
