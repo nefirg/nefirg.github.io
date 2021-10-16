@@ -18,6 +18,6 @@ if (cday != '5') {
 
 
 // banner closing using an icon to close
-// document.querySelector(".banner--close").addEventListener("click", function() {
+// document.querySelector(".banner-close").addEventListener("click", function() {
 //     this.closest(".banner").style.display = "none";
 // });
