@@ -379,17 +379,27 @@ p {
     }
     iframe{
         width:50%;
+        margin-bottom: 3em;
+    }
+    p#swag{
+        position: absolute;
+        padding-top: 1.5em;
+        margin-left: 15em;
     }
     div#icons {
-        float: right;
-        padding-top: 4em;
-        margin-right: 3em;
-        font-size: larger;
+        margin-right: 6em;
+        margin-left: 30em;
+        margin-top: -6em;
+    }
+    h3#huh {
+        position: absolute;
+        margin-left: 14em;
+        margin-top: 20px;
     }
     
 }
 /* This is my large screen change and 64em is 1024px. */
-@media (min-width: 64em) { 
+@media (min-width: 65em) { 
     /* header img{
         height: 200px;
     } */
@@ -466,9 +476,7 @@ p {
     }
 
     p#swag{
-        position: absolute;
-        padding-top: 1.5em;
-        margin-left: 16em;
+        margin-left: 19em;
     }
     
     #ih8this {
@@ -502,13 +510,13 @@ p {
         width:50%;
     }
     h3#huh {
-            position: absolute;
-        margin-left: 12em;
+        position: absolute;
+        margin-left: 16em;
         margin-top: 20px;
     }
     div#icons {
         margin-right: 6em;
         margin-left: 30em;
-        margin-top: -6em;
+        margin-top: -4em;
     }
 }
