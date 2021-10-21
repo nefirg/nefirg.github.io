@@ -279,6 +279,7 @@ p {
         font-size:1.5em;
         padding:.4em;
         border-radius:3em;
+        display: none;
     }
     
     nav {
@@ -319,8 +320,10 @@ p {
         list-style: none;
     }
 
-    ul#primaryNav.hide {
-        display:none;
+    ul#primaryNav.hide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
     main {
@@ -410,7 +413,6 @@ p {
     button {
         display:none;
     }
-
     nav ul.hide{
         display:flex;
         font-family:Verdana, sans-serif;
