@@ -30,3 +30,11 @@ window.addEventListener('load', () => {
     let both = fulldate + ' ' + fulltime;
     document.getElementById("currentdate").innerHTML = both;
 })
+
+// WebFont.load({
+//     google: {
+//       families: [
+//          'Open Sans'
+//       ]
+//     }
+//   });
