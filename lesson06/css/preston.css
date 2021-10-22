@@ -1,3 +1,7 @@
+/* main picture#img1 figcaption {
+    text-align: center;
+    font-size: .75rem;
+} */
 /* h2 {
     text-align:center;
 /* } */
@@ -24,21 +28,36 @@ iframe {
     height: 250px;
 }
 
-h4 {
-    margin:0;
-}
-
 div#weather-summary {
     position: relative;
-    color: rgb(7, 247, 255);
-    padding: .5em;
-    top: -1.5em;
+    color: rgb(219, 231, 231);
+  	background-color: rgba(100, 100, 100, 0.5);
 } 
-
-#img1 {
-    width: 100%;
-    Height: 15em;
-    margin-bottom: -8em;
+#img1{
+    position: relative;
+display: block;
+width:100%;
+}
+.image-text-block {
+    position: absolute;
+    display: block;
+    margin-top:2em;
+    padding-left:5px;
+    width:40%;
+    top:-2em;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    border-radius:1em;
+}
+p#hi {
+    font-size: 8px;
+    color:rgb(206, 234, 240);
+}
+h4#hii {
+    font-size:12px;
+    margin-bottom:-1.5em;
+    margin-top:10px;
+    color:rgb(206, 234, 240);
 }
 /* #one {
     background-color: aqua;
@@ -209,6 +228,7 @@ main {
 }
 
 .contentbox {
+    position:relative;
     margin: 5px;
     padding: .6em;
     background-color: rgba(143, 214, 204, 0.5);
@@ -272,6 +292,26 @@ p {
 }
 /* This is my mid screen change and 32.5em is 520px. */
 @media (min-width: 32.5em) {
+    .image-text-block {
+        position: absolute;
+        display: block;
+        width:25%;
+        margin-top:2em;
+        padding-left:1em;
+        background-color: rgba(100, 100, 100, 0.5);
+        color: white;
+        border-radius:1em;
+    }
+    h4#hii {
+        font-size:1.2em;
+        margin-bottom:-1em;
+        margin-top:10px;
+        color:rgb(206, 234, 240);
+    }
+    p#hi {
+        font-size: 1em;
+        color:rgb(206, 234, 240);
+    }
     nav button {
         color:rgba(143, 214, 204, 0.76);
         background-color:#333;

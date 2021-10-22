@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston, ID | Le Mateo Channelle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/lesson5/css/preston.css">
-    <link rel="shortcut icon" href="/lesson5/img/favicon.ico">
+    <link rel="stylesheet" href="/lesson06/css/preston.css">
+    <link rel="shortcut icon" href="/lesson06/img/favicon.ico">
     <!-- <link href="https://fonts.google.com/icons?selected=Material%20Icons%3Aclose%3A" rel="stylesheet"> -->
 </head>
 
@@ -34,7 +34,7 @@
     </div>
 
     <header>
-        <img id="one" src="/lesson03/img/weather_logo.jpg" alt="Site Plan Logo">
+        <img id="one" src="/lesson06/img/weather_logo.jpg" alt="Site Plan Logo">
         <div id="siteTitle">
             <h1>La Meteo Channelle</h1>
             <p>Weather for daily tea</p>
@@ -45,7 +45,7 @@
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li><a href="/lesson01/index.html">Home</a></li>
-            <li><a class="current" href="/lesson5/preston.html">Preston</a></li>
+            <li><a class="current" href="/lesson06/preston.html">Preston</a></li>
             <li><a href="n/a">Soda Springs</a></li>
             <li><a href="n/a">Fish Haven</a></li>
             <li><a href="n/a">Storm Center</a></li>
@@ -55,19 +55,21 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="contentbox">
-            <picture>
-                <source type="image/jpg" srcset
 
-
-            </picture>
-            <img id="img1" src="/lesson5/img/Action_Comics_1000_Variant_Cover.jpg" alt="hero_image">
             <div id="weather-summary">
-                <H4>Weather Summary </H4><br>
-                Currently: Sunny<br>
+                <picture>
+                    <source type="image/jpeg" media="(max-width: 200px)" srcset="\lesson06\img\smallest.jpeg">
+                    <source type="image/jpeg" media="(max-width: 700px)" srcset="\lesson06\img\medium.jpg">
+                    <img  id="img1" src="\lesson06\img\largest.jpeg" alt="Country picture of Preston Idaho and the hero image">
+                </picture>
+                <div class="image-text-block">
+                <H4 id="hii">Weather Summary</H4><br>
+                <p id="hi">Currently: Sunny<br>
                 High: 76&#8457; <br>
                 Wind Chill: 81&#8457; <br>
                 Humidity: 21% <br>
-                Wind Speed: 10mph
+                Wind Speed: 10mph</p>
+            </div>
             </div>
         </div>
         <div class="contentbox" id="showHide">

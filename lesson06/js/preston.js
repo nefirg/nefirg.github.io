@@ -16,6 +16,18 @@ if (cday != '5') {
     document.getElementById('friday').style.display = "none";
 }
 
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+const imgOptions = {
+    threshold: 0.5,
+    rootMargin: "0px 0px 100px 0px"
+}
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute("data=src"));
+    image.onload = () => {
+        image.removeAttribute('data-src)');
+    };
+};
+
 
 // banner closing using an icon to close
 // document.querySelector(".banner-close").addEventListener("click", function() {
