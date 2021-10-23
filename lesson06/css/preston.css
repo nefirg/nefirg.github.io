@@ -8,7 +8,9 @@
 html {
     overflow-y: scroll;
     }
-
+img#wrsttever {
+    width:50%;
+}
 iframe {
     width:100%;
 }
@@ -292,6 +294,9 @@ p {
 }
 /* This is my mid screen change and 32.5em is 520px. */
 @media (min-width: 32.5em) {
+    img#wrsttever {
+        width:50%;
+    }
     .image-text-block {
         position: absolute;
         display: block;
@@ -446,6 +451,9 @@ p {
     /* header img{
         height: 200px;
     } */
+    img#wrsttever {
+        width:30%;
+    }
     h2#ugh {
         text-align: center;
         height: 30px;
