@@ -45,7 +45,7 @@ if ("IntersectionObserver" in window) {
                 observer.unobserve(item.target);
             }
         });
-    }, imgoptions);
+    }, imgOptions);
 
     imagesToLoad.forEach((img) => {
         observer.observe(img);
