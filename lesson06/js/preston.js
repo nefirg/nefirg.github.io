@@ -77,3 +77,33 @@ document.addEventListener("DOMContentLoaded", () => {
 // document.querySelector(".banner-close").addEventListener("click", function() {
 //     this.closest(".banner").style.display = "none";
 // });
+
+
+
+// LAZY LOADED
+// From Youtube video:
+// in lazy loading we can wait to load that image or a small version of that image
+// select piece of text source = and data-src and set width to 600.
+
+// ctrl+shift+L function
+
+// const images = document.querySelectorAll('img');
+
+// images.forEach((image) => {
+//     const newURL = image.getAttribute('data-src');
+//     image src= newURL;
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
