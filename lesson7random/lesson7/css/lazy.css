@@ -29,7 +29,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 p {
-  font-size: 18px;
+  font-size: 12px;
   max-width:fit-content;
 }
 nav button {
@@ -74,7 +74,7 @@ ul#primaryNav {
 }
 
 footer {
-  margin:2.5em;
+  margin: 0em;
   text-align: center;
   font-size:16px;
 }
@@ -102,8 +102,8 @@ img {
   object-position: center;
 }
 
-.imgp:hover {
-  box-shadow: 0 0 50px #333;
+figcaption {
+  display:none;
 }
 
 /* This is my mid screen change and 32.5em is 520px. */
@@ -224,7 +224,7 @@ p {
 footer {
   margin:2.5em;
   text-align: center;
-  font-size: 1em;
+  font-size: small;
 }
 
 div.main {
@@ -236,6 +236,14 @@ div.main {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgp a:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+figcaption{
+  display:block;
 }
 }
 
