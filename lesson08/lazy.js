@@ -45,8 +45,3 @@ var d = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
 var edited = d[u.getDay()] + ', ' + u.getDate() + ' ' + m[u.getMonth()] + ' ' + u.getFullYear();
 document.getElementById("lastmodified").innerHTML = edited;
 
-var today = new Date();
-var cday = today.getDay();
-if (cday != '5') {
-document.getElementById('friday').style.display = "none";
-}
