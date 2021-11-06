@@ -33,6 +33,10 @@ function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
 
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
+
 var u = new Date(document.lastModified);
 var m = new Array ("January","February","March","April","May","June","July",
 "August","September","October","November","December");
@@ -44,9 +48,5 @@ document.getElementById("lastmodified").innerHTML = edited;
 var today = new Date();
 var cday = today.getDay();
 if (cday != '5') {
-  document.getElementById('friday').style.display = "none";
-}
-
-function adjustRating(rating) {
-  document.getElementById("ratingvalue").innerHTML = rating;
+document.getElementById('friday').style.display = "none";
 }
