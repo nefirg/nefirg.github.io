@@ -7,15 +7,18 @@
     <title>Thank You</title>
 </head>
 <body>
-    <div id="thanks"></div>
+    <p>Thank you for submitting, you 
+        may have rescued many lives today!
+    </p>
     <a href="/">Back to Form</a>
-    <script>
-        const resultsList = document.getElementById("thanks")
-        new URLSearchParams(window.location.search).forEach((value,
-        name) => {
-            resultsList.append('$(name): $(value)')
-            resultsList.append(document.createElement('br'))
-        })
-    </script>
+    <style>
+        p {
+            font-size:2em;
+            width:15em;
+            padding:2em;
+            color:rgb(49, 95, 126);
+            text-align: center;
+        }
+    </style>
 </body>
 </html>

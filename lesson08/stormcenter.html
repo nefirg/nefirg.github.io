@@ -40,7 +40,7 @@
           to provide additional comments at the bottom of the page. 
       </p>
     
-    <form action="results.html" method="GET" enctype="multipart/form-data">
+    <form action="thanks.html" method="GET" enctype="multipart/form-data">
         <div>
         <label for="FullName">Full Name:</label>
         <input type="text" name="FullName" id="FullName" pattern="^[a-zA-Z\s]{5,}$" required>
@@ -78,7 +78,7 @@
         </div>
         <br>
 
-        <form action="/action_page.php" method="get">
+        <div>
             <label for="stormtype">Storm Type:</label>
             <input list="stormtypes" name="stormtype" id="stormtype">
             <datalist id="stormtypes">
@@ -88,7 +88,7 @@
                 <option value="Thunderstorm">
                 <option value="Tornado">
             </datalist>
-        </form>
+        </div>
         <br>
 
         <!-- Storm severity from 1-10 -->
@@ -113,7 +113,7 @@
         <br>
         <br>
         
-        <form action="/action_page.php">
+        <div>
             <label for="regions">Storm Region:</label>
             <select name="regions" id="regions">
               <option disabled="disabled">Select Region ...</option>
@@ -121,7 +121,7 @@
               <option value="Soda Springs">Soda Springs</option>
               <option value="Fish Haven">Fish Haven</option>
             </select>
-          </form>
+        </div>
 
         <!-- Radio(selects one) -->
         <div class="swag">
@@ -145,9 +145,9 @@
                 <textarea id="comments" name="comments"></textarea>
             </div>
             <br>
+        </div>
+            <button>Submit</button>
             
-            <input class="submit" type="submit">
-
         <!-- Checkbox element
         <div>
             Favorite Food
@@ -197,7 +197,7 @@
         </div> -->
         <!-- <button type="reset">Submit</button> -->
         <!-- <button type="submit">Submit</button> -->
-        </div>
+        
   </main>
   
   <footer>
