@@ -1,0 +1,86 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+    color:rgb(77, 77, 207);
+}
+
+h2{
+    font-size:1.7em;
+}
+
+.flex-container {
+    background-color: rgb(211, 226, 235);
+}
+
+div.cards {
+      text-align: center;
+}
+
+section {
+      border-style:solid;
+      background-color: rgb(137, 170, 231);
+      margin-bottom:15px;
+      width: 340px;
+      height: 400px;
+}
+
+img {
+    width:50%;
+    margin-bottom:10px;
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,.2);
+}
+
+p{
+    font-size: 1.1em;
+}
+
+div.cards {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    grid-template-columns: 1fr;
+}
+
+
+/* This is my mid screen change and 32.5em is 520px. */
+@media (min-width: 32.5em) {
+div.cards {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    font-size:4em;
+}
+
+}
+
+/* This is my large screen change and 64em is 1024px. */
+@media (min-width: 65em) {
+    div.cards {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    section {
+        border-style:solid;
+        background-color: rgb(137, 170, 231);
+        margin-bottom:15px;
+        margin-right:10px;
+        width: 300px;
+        height: 400px;
+  }
+}
