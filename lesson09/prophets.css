@@ -46,6 +46,9 @@ div.cards {
     grid-template-columns: 1fr;
 }
 
+footer {
+    text-align:center;
+}
 
 /* This is my mid screen change and 32.5em is 520px. */
 @media (min-width: 32.5em) {
