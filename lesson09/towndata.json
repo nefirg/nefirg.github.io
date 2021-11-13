@@ -1,7 +1,8 @@
 {
-    "towns": [{
+    "towns": [
+        {
             "name": "Preston",
-            "photo": "preston.jpg",
+            "photo": "https://nefirg.github.io/lesson09/img/Drought(1)-min.jpg",
             "motto": "Home of Napoleon Dynamite.",
             "yearFounded": 1866,
             "currentPopulation": 5204,
@@ -15,7 +16,7 @@
 
         {
             "name": "Fish Haven",
-            "photo": "fishhaven.jpg",
+            "photo": "https://nefirg.github.io/lesson09/img/Sunny%20Day%20(1).jpg",
             "motto": "This is Fish Heaven.",
             "yearFounded": 1864,
             "currentPopulation": 501,
@@ -30,7 +31,7 @@
 
         {
             "name": "Soda Springs",
-            "photo": "sodasprings.jpg",
+            "photo": "https://nefirg.github.io/lesson09/img/Snowstorm(1)-min.jpg",
             "motto": "Historic Oregon Trail Oasis.",
             "yearFounded": 1858,
             "currentPopulation": 2985,
