@@ -1,3 +1,32 @@
+table {
+    table-layout: fixed;
+    width: fit-content;
+}
+
+th {
+    background-color: #E1F4F3;
+    ;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+tr {
+    font-size: 12px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid #333333;
+    background-color: #E1F4F3;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
 /* main picture#img1 figcaption {
     text-align: center;
     font-size: .75rem;
@@ -7,13 +36,17 @@
 /* } */
 html {
     overflow-y: scroll;
-    }
+}
+
 img#wrsttever {
-    width:50%;
+    width: 50%;
 }
+
 iframe {
-    width:100%;
+    width: 100%;
+    height: 100%;
 }
+
 .herodiv {
     margin: 10px auto;
     position: relative;
@@ -33,34 +66,39 @@ iframe {
 div#weather-summary {
     position: relative;
     color: rgb(219, 231, 231);
-  	background-color: rgba(100, 100, 100, 0.5);
-} 
-#img1{
-    position: relative;
-display: block;
-width:100%;
+    background-color: rgba(100, 100, 100, 0.5);
 }
+
+#img1 {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
 .image-text-block {
     position: absolute;
     display: block;
-    margin-top:2em;
-    padding-left:5px;
-    width:40%;
-    top:-2em;
+    margin-top: 2em;
+    padding-left: 5px;
+    width: 40%;
+    top: -2em;
     background-color: rgba(100, 100, 100, 0.5);
     color: white;
-    border-radius:1em;
+    border-radius: 1em;
 }
-p#hi {
-    font-size: 8px;
-    color:rgb(206, 234, 240);
+
+p#swag {
+    font-size: 1em;
+    margin-top: -1.1em;
 }
+
 h4#hii {
-    font-size:12px;
-    margin-bottom:-1.5em;
-    margin-top:10px;
-    color:rgb(206, 234, 240);
+    font-size: 12px;
+    margin-bottom: -1.5em;
+    margin-top: 10px;
+    color: rgb(206, 234, 240);
 }
+
 /* #one {
     background-color: aqua;
     position: relative;
@@ -116,19 +154,20 @@ div_sticky {
 */
 
 @font-face {
-    font-family : 'Lora';
-    font-style : normal;
-    font-weight : 400;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuxJOkq1umA.woff2) format('woff2');
-    }
-    
-body{
-    background-color:rgba(143, 214, 204, 0.76);
-    margin:0;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuxJOkq1umA.woff2) format('woff2');
 }
 
-html, body {
+body {
+    background-color: rgba(143, 214, 204, 0.76);
+    margin: 0;
+}
+
+html,
+body {
     margin: 0;
 }
 
@@ -137,18 +176,18 @@ html, body {
 }
 
 .banner-content {
-    padding:16px;
+    padding: 16px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 .banner-text {
     flex-grow: 1;
     line-height: 1.4;
     font-family: 'Quicksand', sans-serif;
-    color:black;
+    color: black;
     text-align: center;
 }
 
@@ -162,37 +201,37 @@ html, body {
     color: white;
 } */
 
-header{
-    display:flex;
+header {
+    display: flex;
 }
 
-header img{
+header img {
     height: 125px;
 }
 
 #one {
     border-radius: 2em;
-    margin:20px;
+    margin: 20px;
 }
 
 nav button {
-    color:rgba(143, 214, 204, 0.76);
-    background-color:#333;
-    border:none;
-    font-size:1em;
-    padding:.4em;
-    border-radius:.2em;
+    color: rgba(143, 214, 204, 0.76);
+    background-color: #333;
+    border: none;
+    font-size: 1em;
+    padding: .4em;
+    border-radius: .2em;
 }
 
 nav {
-    font-family:Verdana, sans-serif;
-    background-color:#333;
+    font-family: Verdana, sans-serif;
+    background-color: #333;
     padding: 0 2.4em;
 }
 
 nav ul {
-    background-color:#333;
-    color:rgba(143, 214, 204, 0.76);
+    background-color: #333;
+    color: rgba(143, 214, 204, 0.76);
     padding: 0;
     margin: 0;
     list-style: none;
@@ -202,12 +241,12 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color:rgba(143, 214, 204, 0.76);
-    border-top:1px solid rgba(0,0,0,.3);
+    color: rgba(143, 214, 204, 0.76);
+    border-top: 1px solid rgba(0, 0, 0, .3);
 }
 
-nav ul li.active a{
-    background-color: rgba(0,0,0,.2); 
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, .2);
     color: #fff;
 }
 
@@ -224,13 +263,13 @@ ul#primaryNav {
 }
 
 main {
-    padding:1.5em;
-    background-color:rgb(230, 238, 238);
-    text-align:center;
+    padding: 1.5em;
+    background-color: rgb(230, 238, 238);
+    text-align: center;
 }
 
 .contentbox {
-    position:relative;
+    position: relative;
     margin: 5px;
     padding: .6em;
     background-color: rgba(143, 214, 204, 0.5);
@@ -240,35 +279,35 @@ main {
 }
 
 h2 {
-    margin-top:2px;
+    text-align: center;
+    margin-top: 2px;
     display: block;
-    font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
 }
 
 h1 {
     display: block;
     font-size: 2em;
     font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
-    font-size:1.8em;
+    font-size: 1.8em;
+    margin-top: 0.2em;
 }
 
 footer {
-    margin:2.5em;
+    margin: 2.5em;
     text-align: center;
-    font-size:16px;
+    font-size: 16px;
 }
 
 .hide .current {
-    color:white;
+    color: white;
 }
 
-#ugh{
-    text-align:center;
+#ugh {
+    text-align: center;
 }
 
 #ih8this {
@@ -276,7 +315,7 @@ footer {
 }
 
 p {
-    font-size: 18px;
+    font-size: 8px;
 }
 
 #icons {
@@ -285,98 +324,150 @@ p {
 }
 
 @media (max-width: 767px) {
-#showHide {
-    display: none !important;
-    width: 0;
-    height: 0;
-}
+    #showHide {
+        display: none !important;
+        width: 0;
+        height: 0;
+    }
 
 }
+
 /* This is my mid screen change and 32.5em is 520px. */
 @media (min-width: 32.5em) {
-    img#wrsttever {
-        width:50%;
+    table {
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
     }
+
+    th {
+        font-size: xx-large;
+        background-color: #E1F4F3;
+        ;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 2px solid #333333;
+        margin: 0 auto;
+    }
+
+    #temp1,
+    #temp2,
+    #temp3,
+    #temp4,
+    #temp5 {
+        height: 6em;
+    }
+
+    td {
+        font-size: 2em;
+    }
+
+    .forecastcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .forecastcontainer {
+        display: flex;
+    }
+
+    .forecastdiv {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Shadows Into Light', cursive;
+        color: #333333;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding-top: 10px;
+    }
+
+    img#wrsttever {
+        width: 50%;
+    }
+
     .image-text-block {
         position: absolute;
         display: block;
-        width:25%;
-        margin-top:2em;
-        padding-left:1em;
+        padding-left: 1em;
         background-color: rgba(100, 100, 100, 0.5);
         color: white;
-        border-radius:1em;
+        border-radius: 1em;
     }
+
     h4#hii {
-        font-size:1.2em;
-        margin-bottom:-1em;
-        margin-top:10px;
-        color:rgb(206, 234, 240);
+        font-size: 1.6em;
+        padding-bottom: 20px;
+        color: rgb(206, 234, 240);
     }
-    p#hi {
-        font-size: 1em;
-        color:rgb(206, 234, 240);
-    }
+
     nav button {
-        color:rgba(143, 214, 204, 0.76);
-        background-color:#333;
-        border:none;
-        font-size:1.5em;
-        padding:.4em;
-        border-radius:3em;
+        color: rgba(143, 214, 204, 0.76);
+        background-color: #333;
+        border: none;
+        font-size: 1.5em;
+        padding: .4em;
+        border-radius: 3em;
         display: none;
     }
-    
+
     nav {
-        font-family:Verdana, sans-serif;
-        background-color:#333;
+        font-family: Verdana, sans-serif;
+        background-color: #333;
     }
-    
+
     nav ul {
-        background-color:#333;
-        color:rgba(143, 214, 204, 0.76);
+        background-color: #333;
+        color: rgba(143, 214, 204, 0.76);
         padding: 0;
         margin: 0;
     }
-    
+
     nav ul li a {
         display: block;
         padding: .8rem 2%;
         text-decoration: none;
-        color:rgba(143, 214, 204, 0.76);
-        border-top:1px solid rgba(0,0,0,.3);
+        color: rgba(143, 214, 204, 0.76);
+        border-top: 1px solid rgba(0, 0, 0, .3);
     }
-    
+
     nav ul li a:hover {
-        background-color: rgba(0,0,0,.4);
-        color:white;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
     }
-    
-    nav ul li.active a{
-        background-color: rgba(0,0,0,.2); 
+
+    nav ul li.active a {
+        background-color: rgba(0, 0, 0, .2);
         color: #fff;
     }
-    
+
     nav ul.hide {
         display: block;
     }
-    
+
     ul#primaryNav {
         list-style: none;
     }
 
-    ul#primaryNav.hide{
+    ul#primaryNav.hide {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     main {
-        padding:2em;
-        background-color:rgb(230, 238, 238);
-        text-align:center;
+        padding: 2em;
+        background-color: rgb(230, 238, 238);
+        text-align: center;
     }
-    
+
     .contentbox {
         margin: 12px;
         padding: .7em;
@@ -384,32 +475,32 @@ p {
         border-radius: .3em;
         border: 2px solid #333;
         text-align: left;
-        font-size:1.3em;
-        display:block;
+        font-size: 1.3em;
+        display: block;
     }
-    
+
     h2 {
-        margin-top:2px;
         display: block;
         font-weight: bold;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
     }
-    
+
     h1 {
         display: block;
         font-size: 1em;
         font-weight: bold;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
     }
-    
+
     p {
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
-    
+
     footer {
-        margin:2.5em;
+        margin: 2.5em;
         text-align: center;
-        font-size:1em;
+        font-size: 1em;
     }
 
     div#weathersummary {
@@ -418,83 +509,157 @@ p {
         padding: .5em;
         top: -10em;
         width: 30%;
-    } 
+    }
+
     #ih8this {
         width: 100%;
     }
-    p#bs {
-        font-size: 22px;
-    }
-    iframe{
-        width:50%;
+
+    iframe {
+        width: 50%;
         margin-bottom: 3em;
     }
-    p#swag{
+
+    p#swag {
         position: absolute;
-        padding-top: 1.5em;
-        margin-left: 15em;
+        padding-top: 3em;
+        margin-left: 20em;
     }
+
     div#icons {
         margin-right: 6em;
         margin-left: 30em;
         margin-top: -6em;
     }
+
     h3#huh {
         position: absolute;
         margin-left: 14em;
         margin-top: 20px;
     }
-    
+
 }
+
 /* This is my large screen change and 64em is 1024px. */
-@media (min-width: 65em) { 
+@media (min-width: 65em) {
+    h2 {
+        text-align: center;
+    }
+
+    #forecast {
+        display: contents;
+    }
+
+    table {
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+    }
+
+    th {
+        font-size: xx-large;
+        background-color: #E1F4F3;
+        ;
+    }
+
+    table,
+    th,
+    tr,
+    td {
+        border: 2px solid #333333;
+        margin: 0 auto;
+    }
+
+    #temp1,
+    #temp2,
+    #temp3,
+    #temp4,
+    #temp5 {
+        height: 150px;
+        width: 150px;
+    }
+
+    #data1,
+    #data2,
+    #data3,
+    #data4,
+    #data5 {
+        font-size: xx-large;
+    }
+
+    .forecastcontainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .forecastcontainer {
+        display: flex;
+    }
+
+    .forecastdiv {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Shadows Into Light', cursive;
+        color: #333333;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding-top: 10px;
+    }
+
     /* header img{
         height: 200px;
     } */
     img#wrsttever {
-        width:30%;
+        width: 30%;
     }
+
     h2#ugh {
         text-align: center;
         height: 30px;
     }
+
     button {
-        display:none;
+        display: none;
     }
-    nav ul.hide{
-        display:flex;
-        font-family:Verdana, sans-serif;
-        background-color:#333;
-        text-align:center;
-        font-size:1.2em;
+
+    nav ul.hide {
+        display: flex;
+        font-family: Verdana, sans-serif;
+        background-color: #333;
+        text-align: center;
+        font-size: 1.2em;
     }
-    
-    ul#primaryNav.hide{
+
+    ul#primaryNav.hide {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     ul#primaryNav {
         list-style: none;
     }
-    
+
     nav ul li a:hover {
-        background-color: rgba(0,0,0,.4);
-        color:white;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
     }
-    
-    nav ul li.active a{
-        background-color: rgba(0,0,0,.2); 
+
+    nav ul li.active a {
+        background-color: rgba(0, 0, 0, .2);
         color: #fff;
     }
-    
+
     main {
-        padding:1.5em;
-        background-color:rgb(230, 238, 238);
-        text-align:center;
+        padding: 1.5em;
+        background-color: rgb(230, 238, 238);
+        text-align: center;
     }
-    
+
     .contentbox {
         margin: 10px;
         padding: 1em;
@@ -503,32 +668,33 @@ p {
         border: 3px solid #333;
         text-align: left;
         font-size: 1.5em;
-        display:block;
+        display: block;
     }
-    
+
     h2 {
-        margin-top:2px;
+        margin-top: 2px;
         display: block;
         font-size: 2.5em;
         font-weight: bold;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
     }
-    
+
     h1 {
         display: block;
         font-size: 3em;
         font-weight: bold;
-        font-family:'Times New Roman', Times, serif;
-    }
-    
-    p {
-        font-size:1.5em;
+        font-family: 'Times New Roman', Times, serif;
     }
 
-    p#swag{
-        margin-left: 19em;
+    p {
+        font-size: 1.5em;
     }
-    
+
+    p#swag {
+        margin-left: 19em;
+        padding-top: 2em;
+    }
+
     #ih8this {
         width: 100%;
         height: 10em;
@@ -536,7 +702,7 @@ p {
     }
 
     footer {
-        margin:2.5em;
+        margin: 2.5em;
         text-align: center;
         font-size: 1em;
     }
@@ -546,24 +712,35 @@ p {
         Height: 20em;
     }
 
+    p#swag {
+        font-size: 1.5em;
+        margin-top: 1.4em;
+    }
+
     div#weathersummary {
         position: relative;
         color: yellow;
         padding: .5em;
         top: -10em;
         width: 30%;
-    } 
+    }
+
     .bs {
         font-size: 22px;
     }
+
     iframe {
-        width:50%;
+        width: 50%;
+        margin-bottom: 1em;
+        height: 20em;
     }
+
     h3#huh {
         position: absolute;
         margin-left: 16em;
         margin-top: 20px;
     }
+
     div#icons {
         margin-right: 6em;
         margin-left: 30em;

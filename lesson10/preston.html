@@ -52,7 +52,7 @@
             <li><a href="/lesson7random/lesson7/gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    
+
     <main>
         <h2>Preston, Idaho</h2>
         <div class="contentbox">
@@ -61,24 +61,44 @@
                 <picture>
                     <source type="image/jpg" media="(max-width: 500px)" srcset="/lesson06/img/smallest.jpg">
                     <source type="image/jpg" media="(max-width: 1024px)" srcset="/lesson06/img/medium.jpg">
-                    <img  id="img1" src="/lesson06/img/largest.jpg" alt="The fields, trees, and sunlight in Preston Idaho">
+                    <img id="img1" src="/lesson06/img/largest.jpg"
+                        alt="The fields, trees, and sunlight in Preston Idaho">
                 </picture>
                 <div class="image-text-block">
-                <H4 id="hii">Weather Summary</H4><br>
-                <p>
-                Currently: <span id="current_conditions"></span><br>
-                High: <span id="high"></span>&#8457; <br>
-                Humidity: <span id="humidity"></span> <br>
-                Temp: <span id="currentTemp"></span>&#8457;<br>
-                Wind: <span id="windSpeed"></span>mph<br>
-                Wind Chill: <span id="windChill"></span><br>
-                </p>
-            </div>
+                    <H4 id="hii">Weather Summary</H4><br>
+                    <p>
+                        Currently: <span id="current_conditions"></span><br>
+                        High: <span id="high"></span><br>
+                        Humidity: <span id="humidity"></span><br>
+                        Temp: <span id="currentTemp"></span><br>
+                        Wind: <span id="windSpeed"></span><br>
+                        Wind Chill: <span id="windChill"></span><br>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="contentbox" id="showHide">
-            <h2 id="ugh">5 Day Forecast</h2>
-            <img id="ih8this" src="/lesson06/img/beee.png" alt="5 day forecast">
+        <div class="contentbox">
+            <h2>5 Day Forecast</h2>
+            <table>
+
+                <tr>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                </tr>
+
+
+                <tr>
+                    <td><span id="data1"></span>&#8457<img id="temp1" alt="current weather icon"></td>
+                    <td><span id="data2"></span>&#8457<img id="temp2" alt="current weather icon"></td>
+                    <td><span id="data3"></span>&#8457<img id="temp3" alt="current weather icon"></td>
+                    <td><span id="data4"></span>&#8457<img id="temp4" alt="current weather icon"></td>
+                    <td><span id="data5"></span>&#8457<img id="temp5" alt="current weather icon"></td>
+                </tr>
+
+            </table>
         </div>
         <div class="contentbox">
             <img id="wrsttever" src="/lesson06/img/gettyimages-474121696-1024x1024.jpg" alt="family holding hands">
@@ -158,4 +178,3 @@
         alt="Wallers dept store old signage."
         </picture>
 </main> -->
-
