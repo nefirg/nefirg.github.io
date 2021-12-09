@@ -4,6 +4,9 @@
     background:#ccc;
 }
 
+p#gaa {
+    text-align: left;
+}
 table {
     table-layout: fixed;
     width: fit-content;
@@ -297,7 +300,6 @@ h2 {
 
 h1 {
     display: block;
-    font-size: 2em;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -500,7 +502,6 @@ p {
 
     h1 {
         display: block;
-        font-size: 1em;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
     }
