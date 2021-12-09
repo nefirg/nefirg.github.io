@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application/Membership form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/lesson13/css/ContactUs.css">
+  <link rel="shortcut icon" href="/lesson13/img/site-logo.jpg">
+</head>
+
+<body>
+    <header>
+        <img id="one" src="/lesson13/img/site-logo.jpg" alt="Site Plan Logo">
+        <div id="siteTitle">
+            <h1>Rockdale-Conyers City of Commerce</h1>
+            <p>For your local business updates and events</p>
+        </div>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson13/Home.html">Home</a></li>
+            <li><a href="/lesson13/City.html">City</a></li>
+            <li><a href="/lesson13/Join.html">Join</a></li>
+            <li><a href="/lesson13/Directory.html">Directory</a></li>
+            <li><a href="/lesson13/Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+    <form action="/lesson13/Join_page/thanks.html" method="GET" enctype="multipart/form-data">
+        <h1>Contact Us</h1>
+    
+        <div>
+        <label for="FullName">Full Name:</label>
+        <input type="text" name="FullName" id="FullName" pattern="^[a-zA-Z\s]{5,}$" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="dampers@gmail.com" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="comments">Comments: </label>
+            <div>
+            <textarea name="comments" id="comments"></textarea>
+            </div>
+        </div>
+        <br>
+
+        <button>Submit</button>
+
+        </form>
+  </main>
+  
+  <footer>
+    <p>
+        &copy; 2021 Conyers City of Commerce | Nefi Guevara |
+        <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> Last Updated:
+        <span id="lastmodified"></span>
+    </p>
+</footer>
+<script src="/lesson13/js/General.js"></script>
+</body>
+
+</html>
