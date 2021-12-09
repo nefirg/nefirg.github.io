@@ -1,0 +1,44 @@
+/* color scheme includes #e7f0ed, #e7ffed (data rows) and 
+#628ca6, #7fb9c2 along with standard white and black. */
+
+thead{
+    font-size:2em;
+    text-align: center;
+}
+
+#titles {
+    font-size:22px;
+    color:white;
+    background-color: #628ca6;
+}
+.header-footer {
+    background-color: #628ca6;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+    text-align: center;
+}
+
+tr {
+    background-color: #628ca6;
+}
+
+.leggo {
+    background-color: #7fb9c2;
+}
+
+#cursive {
+    font-style: italic;
+}
+
+table {
+    border: solid;
+    box-shadow: 5px 10px #888888;
+}

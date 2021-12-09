@@ -16,7 +16,7 @@ document.getElementById("lastmodified").innerHTML = edited;
 // }).then{}
 //     })
 // }
-const prestonAPI = 'https://api.openweathermap.org/data/2.5/weather?id=4189213&units=imperial&appid=7c82d6533a95c63f9db98ef04dbc9973';
+const prestonAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7c82d6533a95c63f9db98ef04dbc9973';
 
 fetch(prestonAPI)
     .then(function (response) {
@@ -44,7 +44,7 @@ fetch(prestonAPI)
 
 /* 5 day forecast */
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4189213&appid=7c82d6533a95c63f9db98ef04dbc9973";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=7c82d6533a95c63f9db98ef04dbc9973";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -60,7 +60,7 @@ fetch(apiURL)
         document.getElementById('icon').setAttribute('alt', desc);
     });
 
-const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast?id=4189213&appid=7c82d6533a95c63f9db98ef04dbc9973";
+const forecastAPI = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7c82d6533a95c63f9db98ef04dbc9973";
 fetch(forecastAPI)
     .then((response) => response.json())
     .then((jsObject) => {

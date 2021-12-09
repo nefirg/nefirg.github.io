@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application/Membership form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/lesson13/Join page/lazy.css">
+  <link rel="shortcut icon" href="/lesson13/img/site-logo.jpg">
+</head>
+
+<body>
+    <header>
+        <img id="one" src="/lesson13/img/site-logo.jpg" alt="Site Plan Logo">
+        <div id="siteTitle">
+            <h1>Rockdale-Conyers City of Commerce</h1>
+            <p>For your local business updates and events</p>
+        </div>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson13/Home.html">Home</a></li>
+            <li><a href="/lesson13/City.html">City</a></li>
+            <li><a class="current" href="/lesson13/Join.html">Join</a></li>
+            <li><a href="/lesson13/Directory.html">Directory</a></li>
+            <li><a href="/lesson13/Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+    <form action="/lesson13/Join page/thanks.html" method="GET" enctype="multipart/form-data">
+        <h1>Application/Membership Form</h1>
+      <p>The purpose of this webpage is to provide information about the benefits
+          of becoming a part of the Conyers-Rockdale Chamber of Commerce member
+          and it provides a membership application form that must be filled out to
+          recieve exclusive information, business details, events, and so much more.
+      </p>
+
+        <div>
+        <label for="FullName">Full Name:</label>
+        <input type="text" name="FullName" id="FullName" pattern="^[a-zA-Z\s]{5,}$" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="dampers@gmail.com" required>
+        </div>
+        <br>
+
+        <!-- <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="200" step="1">
+        </div> -->
+
+        <!-- For phone number input -->
+        <div>
+            <label for="phone">Cell-Phone:</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <br>
+
+        <!-- For zipcode input -->
+        <div>
+            <label for="business.w">Business Website:</label>
+            <input type="text" name="business.w" id="business.w">
+        </div>
+        <br>
+
+        <div>
+            <label for="business.a">Business Address:</label>
+            <input type="text" name="business.a" id="business.a">
+        </div>
+        <br>
+
+        <div>
+            <label for="comments">Business Description:</label>
+            <div>
+            <textarea name="comments" id="comments"></textarea>
+            </div>
+        </div>
+        <br>
+
+        <!-- <div>
+            <label for="stormtype">Storm Type:</label>
+            <input list="stormtypes" name="stormtype" id="stormtype">
+            <datalist id="stormtypes">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+        </div>
+        <br> -->
+
+        <!-- Storm severity from 1-10 -->
+        
+        <!-- <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+			<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+			<span id="ratingvalue">5</span>
+		</label>
+        <datalist id="tickmarks">
+			<option value="0">
+			<option value="1">
+			<option value="2">
+			<option value="3">
+			<option value="4">
+			<option value="5">
+			<option value="6">
+			<option value="7">
+			<option value="8">
+			<option value="9">
+			<option value="10">
+		</datalist>
+        <br>
+        <br> -->
+        
+        <div>
+            <label for="regions">Membership Level:</label>
+            <select name="regions" id="regions">
+              <option disabled="disabled">Select Level ...</option>
+              <option value="Non-profit">Non-profit ($100)</option>
+              <option value="Bronze">Bronze ($200)</option>
+              <option value="Silver">Silver ($400)</option>
+              <option value="Gold">Gold ($1000)</option>
+            </select>
+        </div>
+        <p>
+            The non-profit is for getting exclusive deals on events and coupons.
+            <br>
+            <br>
+            The Bronze package provides First Stage events, 2 annual tickets to
+            your select event. It provides higher quality savings.
+            <br>
+            <br>
+            The Silver package provides you with all of the above plus 10 annual tickets
+            to events of your choosing, 2 free Nascar event tickets, VIP status, and 
+            Tesla waiting list.
+            <br>
+            <br>
+            The Gold package is all of the above but instead of 10 events, you get VIP to
+            all of the events plus a Tesla rental availability.
+        </p>
+        <br>
+
+        <button>Submit</button>
+
+        <!-- Radio(selects one) -->
+        <!-- <div class="swag">
+            User in-danger level
+            <div>
+                <label for="yes">yes</label>
+                <input type="radio" name="yes" id="yes" value="yes">
+            </div>
+            <div>
+                <label for="maybe">maybe</label>
+                <input type="radio" name="maybe" id="maybe" value="maybe">
+            </div>
+            <div>
+                <label for="no">no</label>
+                <input type="radio" name="no" id="no" value="no">
+            </div>
+            <br> -->
+            <!-- Text area -->
+            <!-- <div>
+                <label for="comments">Additonal Information or Comments</label>
+                <div>
+                <textarea id="comments" name="comments"></textarea>
+                </div>
+            </div>
+            <br>
+        </div> -->
+            
+        <!-- Checkbox element
+        <div>
+            Favorite Food
+            <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="banana" id="banana">
+            </div>
+            <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="apple" id="apple">
+            </div>
+        
+                A select element but works similar to other input elements
+                <div>
+                    <label for="eyeColor">Eye Color</label>
+                    <select name="eyeColor" id="eyeColor">
+                        <option value="Green">Green</option>
+                        <option label="Red" value="Red"></option>
+                    </select>
+                </div>
+            </div> -->
+            
+
+            <!-- Hidden input -->
+            <!-- <input type="hidden" name="hidden" value="hi"> -->
+            
+            <!-- Choose a file to submit to server -->
+            <!-- <div>
+                <label for="file">File</label>
+                <input id="file" type="file" name="file">
+            </div> -->
+            
+            <!-- To enter URL's -->
+            <!-- <div>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url"> -->
+            <!-- </div>
+            Fun to select a color of our liking
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div> -->
+
+        <!-- <div>
+        <label>Password</label>
+        <input type="password" name="password" required>
+        </div> -->
+        <!-- <button type="reset">Submit</button> -->
+        <!-- <button type="submit">Submit</button> -->
+        </form>
+  </main>
+  
+  <footer>
+    <p>
+        &copy; 2021 Conyers City of Commerce | Nefi Guevara |
+        <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> Last Updated:
+        <span id="lastmodified"></span>
+    </p>
+</footer>
+<script src="/lesson13/js/General.js"></script>
+</body>
+
+</html>

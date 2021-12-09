@@ -1,0 +1,318 @@
+/* header section */
+html {
+  overflow-x: hidden;
+}
+body {
+    background-color: rgba(143, 214, 204, 0.76);
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+header { 
+  display:flex;
+}
+#one {
+  border-radius: 2em;
+  margin: 20px;
+}
+header img {
+  height: 125px;
+}
+div#siteTitle {
+  display: block;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav button {
+  color:rgba(143, 214, 204, 0.76);
+  background-color:#333;
+  border:none;
+  font-size:1em;
+  padding:.4em;
+  border-radius:.2em;
+}
+nav {
+  font-family:Verdana, sans-serif;
+  background-color:#333;
+  padding: 0 1em;
+}
+nav ul {
+  background-color:#333;
+  color:rgba(143, 214, 204, 0.76);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color:rgba(143, 214, 204, 0.76);
+  border-top:1px solid rgba(0,0,0,.3);
+}
+nav ul li.active a{
+  background-color: rgba(0,0,0,.2); 
+  color: #fff;
+}
+nav ul.hide {
+  display: none;
+}
+ul#primaryNav.hide {
+  list-style: none;
+}
+ul#primaryNav {
+  list-style: none;
+}
+
+footer {
+  margin: 0em;
+  text-align: center;
+  font-size:16px;
+}
+
+main {
+  background-color: rgb(230, 238, 238);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+div.main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100vw;
+  display: inline-block;
+  grid-template-columns: 1fr;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+figcaption {
+  display:none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input, textarea, select, button {
+  width : 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin:1em;
+}
+
+label.flexly {
+  margin:1em;
+}
+
+div.swag {
+  margin:1em;
+}
+
+input#yes {
+  width:12em;
+}
+
+input#no {
+  width:12.7em;
+}
+
+textarea#comments {
+  width:21.1em;
+}
+
+input#FullName {
+  width:12.1em;
+}
+
+input#email {
+  width:14em;
+}
+input#phone {
+  width:11.9em;
+}
+input#title {
+  width:14.5em;
+}
+input#zipcode {
+  width:11.1em;
+}
+input#date {
+  width:9.8em;
+}
+input#stormtype {
+  width:9.7em;
+}
+select#regions{
+  width:8.9em;
+}
+textarea {
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+/* This is my mid screen change and 32.5em is 520px. */
+@media (min-width: 32.5em) {
+  nav button {
+    color:rgba(143, 214, 204, 0.76);
+    background-color:#333;
+    border:none;
+    font-size:1.5em;
+    padding:.4em;
+    border-radius:3em;
+    display: none;
+}
+
+nav {
+    font-family:Verdana, sans-serif;
+    background-color:#333;
+}
+
+nav ul {
+    background-color:#333;
+    color:rgba(143, 214, 204, 0.76);
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:rgba(143, 214, 204, 0.76);
+    border-top:1px solid rgba(0,0,0,.3);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.4);
+    color:white;
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,.2); 
+    color: #fff;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+ul#primaryNav {
+    list-style: none;
+}
+
+ul#primaryNav.hide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+  margin:2.5em;
+  text-align: center;
+  font-size:1em;
+}
+
+div.main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+/* This is my large screen change and 64em is 1024px. */
+@media (min-width: 65em) { 
+  
+nav ul.hide{
+    display:flex;
+    font-family:Verdana, sans-serif;
+    background-color:#333;
+    text-align:center;
+    font-size:1.2em;
+}
+
+ul#primaryNav.hide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#primaryNav {
+    list-style: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.4);
+    color:white;
+}
+
+nav ul li.active a{
+    background-color: rgba(0,0,0,.2); 
+    color: #fff;
+}
+
+footer {
+  margin:2.5em;
+  text-align: center;
+  font-size: small;
+}
+
+div.main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgp a:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+figcaption{
+  display:block;
+}
+}
+
+
+/* 
+.fade {
+  transform: translateX(0);
+  opacity: 1.0;
+  transition: all 500ms;
+} */
