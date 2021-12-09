@@ -76,7 +76,7 @@ div#weather-summary {
     background-color: rgba(100, 100, 100, 0.5);
 }
 
-#img1 {
+.img1 {
     position: relative;
     display: block;
     width: 100%;
@@ -275,6 +275,10 @@ main {
     text-align: center;
 }
 
+.yas {
+    background-color: rgb(230, 238, 238);
+}
+
 .contentbox {
     position: relative;
     margin: 5px;
@@ -301,6 +305,7 @@ h1 {
 h3 {
     font-size: 1.8em;
     margin-top: 0.2em;
+    text-align: center;
 }
 
 footer {
@@ -322,7 +327,7 @@ footer {
 }
 
 p {
-    font-size: 8px;
+    text-align:center;
 }
 
 #icons {
@@ -714,7 +719,7 @@ p {
         font-size: 1em;
     }
 
-    #img1 {
+    .img1 {
         width: 100%;
         Height: 20em;
     }
