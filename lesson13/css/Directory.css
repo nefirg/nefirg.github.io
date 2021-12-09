@@ -1,4 +1,8 @@
 /* header section */
+.imgp {
+  width: 250px;
+  height: 250px;
+}
 html {
     overflow-x: hidden;
   }
